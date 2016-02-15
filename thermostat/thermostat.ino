@@ -47,7 +47,7 @@ void setup() {
 
   Particle.function("settarget", setTarget);
   Particle.function("setftarget", convertThenSetTarget);
-  Particle.function("setglobalft", convertThenSetTargetThenBroadcast);
+  Particle.function("setallft", convertThenSetTargetThenBroadcast);
 
   Particle.subscribe("zs-set-target", handleSetTemperature, MY_DEVICES);
   Particle.subscribe("zs-read-temp", handleTemperatureReading, MY_DEVICES);
