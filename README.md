@@ -1,3 +1,7 @@
+> As of 2018 development on this project had ceased cause I moved into a building with a real thermostat.
+> Arduino doesn't change much, so the code should still work. However, I am archiving the project so it's
+> clear that this isn't supported.
+
 # Hacky Nest Alternatives
 
 I live in a kinda run-down tenement building with window heater units.
